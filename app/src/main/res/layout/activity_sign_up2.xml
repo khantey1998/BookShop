@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="edu.rupp.bookshop.Activity.SignUp2Activity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp"
+        android:text="Select what you want to do:"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_sellerSignUp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:elevation="0dp"
+        android:text="I'm a seller"
+        android:textSize="18sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:elevation="0dp"
+        android:id="@+id/btn_customerSignUp"
+        android:text="I'm a Customer"
+        android:textSize="18sp" />
+
+</LinearLayout>

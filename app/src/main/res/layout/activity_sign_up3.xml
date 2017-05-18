@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="edu.rupp.bookshop.Activity.SignUp3Activity">
+
+    <TextView
+        android:id="@+id/txt_fill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLEASE FILL OUT THE BLANK"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_fill"
+        android:paddingTop="10dp"
+        android:text="First Name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:id="@+id/etx_first"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_fill"
+        android:layout_toRightOf="@id/txt_firstName"
+        android:background="?attr/colorBackgroundFloating" />
+    <TextView
+        android:id="@+id/txt_lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_firstName"
+        android:paddingTop="10dp"
+        android:text="Last Name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etx_last"
+        android:layout_below="@id/etx_first"
+        android:layout_toRightOf="@id/txt_lastName"
+        android:background="?attr/colorBackgroundFloating" />
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_lastName"
+        android:paddingTop="10dp"
+        android:text="Email"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etx_last"
+        android:layout_toRightOf="@id/txt_email"
+        android:background="?attr/colorBackgroundFloating" />
+
+
+</RelativeLayout>
